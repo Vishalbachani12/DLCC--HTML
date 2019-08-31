@@ -1,23 +1,4 @@
-@media screen and (min-width:1800px)
-{
-	#Inventory-table
- .coman-table tr th {
-    width: 1%;
-}
-#Inventory-table th:nth-Child(4) {
-    padding-right: 0px;
-        padding-left: 12px;
-}
-#Inventory-table th:nth-Child(1) {
-       padding-left: 18px;
-    padding-right: 20px;
-}
-#Inventory-table th:nth-Child(2) {
-    padding-right: 10px;
 
-}
-
-}
 @media screen and (max-width:1350px)
 {
 	/*.short-sale-form{ padding: 25px 20px 20px 20px; }*/
@@ -46,6 +27,32 @@
 	#Client-Accounts th {
     width: 9%;
 }
+#Positionsa th {
+    width: 2%;
+}
+}
+@media screen and (min-width:1800px)
+{
+	#Inventory-table
+ .coman-table tr th {
+    width: 1%;
+}
+#Inventory-table th:nth-Child(4) {
+    padding-right: 0px;
+        padding-left: 12px;
+}
+#Inventory-table th:nth-Child(1) {
+       padding-left: 18px;
+    padding-right: 20px;
+}
+#Inventory-table th:nth-Child(2) {
+    padding-right: 10px;
+
+}
+#Positionsa th {
+    width: 1%;
+}
+
 }
 @media screen and (min-width:1430px)
 {
