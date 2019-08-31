@@ -318,10 +318,10 @@ body.modal-open{ padding-right: 17px !important; }
 .left-content .table tbody{ max-height: 407px; }
 .left-content .table thead tr th{ padding-right: 19px !important; }
 #Positionsa td{padding-left: 20px;}
-#Positionsa th{width: 3%;}
+#Positionsa th{width: 1%;}
 #Positionsb th{width: 3%;}
 /*#Positionsa th:nth-Child(4){padding-left:10px;}*/
-#Positionsa th:nth-Child(5){padding-left:20px;}
+/*#Positionsa th:nth-Child(5){padding-left:20px;}*/
 /*#Positionsb th:nth-Child(2){ padding-right: 20px;}
 */#Positionsb td:nth-Child(7){padding-right: 30px;}  
 #Positionsb th:nth-Child(5){padding-left:17px;}   
