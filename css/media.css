@@ -1,0 +1,127 @@
+@media screen and (min-width:1800px)
+{
+	#Inventory-table
+ .coman-table tr th {
+    width: 1%;
+}
+#Inventory-table th:nth-Child(4) {
+    padding-right: 0px;
+        padding-left: 12px;
+}
+#Inventory-table th:nth-Child(1) {
+       padding-left: 18px;
+    padding-right: 20px;
+}
+#Inventory-table th:nth-Child(2) {
+    padding-right: 10px;
+
+}
+
+}
+@media screen and (max-width:1350px)
+{
+	/*.short-sale-form{ padding: 25px 20px 20px 20px; }*/
+	.form-steps{ width:40%; }
+
+#Inventory-table th:nth-Child(4) {
+    padding-right: 10px;
+}
+#Inventory-table th:nth-Child(1) {
+    padding-left: 44px;
+}
+#Inventory-table th:nth-Child(2) {
+    padding-right: 10px;
+}
+#Positions th:nth-Child(4) {
+    padding-left: 20px;
+}
+
+}
+
+@media screen and (min-width:1283px)
+{
+	/*.short-sale-form{ padding: 25px 20px 20px 20px; }*/
+	.form-steps{ width:40%; }
+	#Positionsb th{width: 7%;}
+	#Client-Accounts th {
+    width: 9%;
+}
+}
+@media screen and (min-width:1430px)
+{
+	/*.short-sale-form{ padding: 25px 20px 20px 20px; }*/
+	
+	#Positionsb th{width: 3%;}
+	
+}
+
+@media screen and (max-width:1366px)
+{
+	/*.short-sale-form{ padding: 25px 20px 20px 20px; }*/
+	.form-steps{ width:40%; }
+}
+
+@media screen and (max-width:1300px)
+{
+	
+}
+
+
+@media screen and (max-width:1200px)
+{
+	
+	
+}
+
+@media screen and (max-width:1023px)
+{		
+	
+	
+}
+
+@media screen and (max-width:768px)
+{
+	nav.navbar-static-top .navbar-right{ margin-right:15px; }
+	
+	.navbar-minimalize.minimalize-styl-2.btn{ display: block; height: auto; margin: 24px 15px 5px 20px; position: absolute; right: 0; top: 0; }
+	
+	.body-small .navbar-static-side{ width: 220px !important; background-color: #0f0f1b; }
+	body.mini-navbar #page-wrapper{ margin: 0 0 0 0px;  }
+	nav.navbar-static-top .navbar-right{ float: none !important; margin: 0 0 0 15px; }
+	.logo-element{ padding: 27px 0 19px 0; }
+	
+
+	
+}
+
+@media screen and (max-width:767px)
+{
+	.adm-menu ul.dropdown-menu{ margin-left:0; }
+	.form-title h2{ float: none; }
+	.form-steps{ width: auto; float: none; padding: 20px 0 0 0; }
+	.form-steps ul li .box h4{ padding: 6px 0 0 0; }
+	nav.navbar-static-top .navbar-right{ float: right; }
+	.table-part{ margin-bottom: 40px; }
+	.short-sale-form{ margin-bottom: 40px; padding: 15px 15px 1px 15px; }
+	.chart-section{ margin-bottom: 40px; }
+	.table-responsive{ border: none; }
+	.modal .modal-dialog{ width:auto !important; margin: 20px 15px; }
+	.modal-body{ padding: 15px; }
+	.coman-table{ position: relative; z-index: 10; }
+	
+}
+
+@media screen and (max-width:479px)
+{
+	.nav.navbar-top-links li.adm-menu{ display:inline-block; }
+	.main-tab-section .nav-tabs li{ float: none; width: auto; }
+	.table-heading h2{ float:none; padding: 0 0 10px 0; }
+	.sort-box{ float:none; }
+	.sort-box h3{ padding: 5px 15px 9px 0; }
+	.sort-box .form-control{ float:none; width: 100%;  }
+	
+}
+
+
+
+

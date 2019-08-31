@@ -1,0 +1,1981 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Welcome To DLCC</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/mystyle-coman.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link href="css/dashboard.css" rel="stylesheet" />
+        <link href="css/developer.css" rel="stylesheet" />
+<!--        <link href="js/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+        <link href="js/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+        <link href="js/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">-->
+        <style>
+            .highlightrow{
+                background-color: #664f4fa2 !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <nav class="navbar-default navbar-static-side left-main-menu" role="navigation">
+                <div class="sidebar-collapse">
+                    
+                    <div class="left-content">
+                        <div class="alerts-part">
+                            <h3>Alerts</h3>
+                            <ul class="alertdisplay">
+                                <li>
+                                    <div class="box">
+                                        <h4>AiX Client ABC is looking for a locate on 100 BTC</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <h4>Client XYZ<br> margin call on 100 BTC 130%</h4>
+                                        <div class="confirm-btn">
+                                            <a href="#locate" class="btn btn-primary" id="confirmreceipt">Confirm Receipt</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <h4>Client XYZ <br> Approaching margin call</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <h4>Client ABC<br> margin call 130%</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <h4>Client ABC<br> Sold short 100 BTC at $12123</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <h4>Client XYZ<br> 100 BTC short position is now closed at $12123</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <h4>Client ABC<br>100 BTC Located (09-07-19) 13:36:37</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="coman-table table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Symbol</th>
+                                        <th>Last </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="btcChart">BTC</td>
+                                        <td>10830.20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ethChart">ETH</td>
+                                        <td>292.25</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BCH</td>
+                                        <td>404.85</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LTC</td>
+                                        <td>123.19</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZEC</td>
+                                        <td>103.55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MRK</td>
+                                        <td>12545</td>
+                                    </tr>
+                                     <tr>
+                                        <td>ZEC</td>
+                                        <td>103.55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MRK</td>
+                                        <td>12545</td>
+                                    </tr>
+                                     <tr>
+                                        <td>ZEC</td>
+                                        <td>103.55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MRK</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BAT</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CRO</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>USDC</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TUSD</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>REP</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>OMG</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LINK</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PAX</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HOT</td>
+                                        <td>12365</td>
+                                    </tr>
+                                   <!--  <tr>
+                                        <td>ZRX</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZIL</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NPXS</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IOST</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HT</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ENJ</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AOA</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KCS</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>INB</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WTC</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DAI</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>QBIT</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MCO</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>XIN</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SNT</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>THR</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GNT</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>VEST</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WAX</td>
+                                        <td>12365</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DGD</td>
+                                        <td>15484</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MXM</td>
+                                        <td>16787</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ELF</td>
+                                        <td>12545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>THR</td>
+                                        <td>12365</td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            
+            
+<!--            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown adm-menu">
+                    <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <span class="profile-img"><img src="img/user-img-pr.png" alt=""></span> <span class="hidden-xs">Firm Name - Clients Client<i class="fa fa-angle-down"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="login.html">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>-->
+
+            <div id="page-wrapper" class="gray-bg">
+                
+                <nav class="navbar navbar-static-top navbar-fixed-top dark-bg" role="navigation" style="margin-bottom: 0">
+                    
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
+                        <div class="dropdown profile-element">
+                            <div class="logo text-center">
+                                <a href="dashboard.html"><img src="img/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="logo-element">
+                            DLCC
+                        </div>
+                    </div>
+                    <div class="main-tab-section navbar-left">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#main-tab1" aria-controls="home" role="tab" data-toggle="tab" id="home">Home</a></li>
+                            <li role="presentation"><a href="#main-tab2" aria-controls="profile" role="tab" data-toggle="tab" id="risk">Margin</a></li>
+                            <li role="presentation"><a href="#main-tab3" aria-controls="messages" role="tab" data-toggle="tab">Admin</a></li>
+                        </ul>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li class="dropdown adm-menu">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#" aria-expanded="false">
+                                <span class="profile-img"><img src="img/user-img-pr.png" alt=""></span> <span class="hidden-xs">Firm Name - Dashboard<i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-alerts">
+                                <li>
+                                    <a href="login.html">Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="row">
+                    
+                </div>
+
+                <div class="wrapper wrapper-content">
+
+                    <div class="main-tab-section">
+                        
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="main-tab1">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="chart-section">
+                                            <img src="img/BTC-USD-1.png" alt="" class="chartView">
+                                        </div>
+  <div class="short-sale-form" id="locate">
+                                            <div class="form-title clearfix">
+                                                <h2>Locate & Execute Short Sale</h2>
+                                                <div class="form-steps clearfix">
+                                                    <ul>
+                                                        <li class="active">
+                                                            <div class="box">
+                                                                <div class="number">1</div>
+                                                                <h4>Locate</h4>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="box">
+                                                                <div class="number">2</div>
+                                                                <h4>Execute</h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group ">
+                                                        <label>Symbol</label>
+                                                        <select class="form-control pull-right" id="symbol">
+                                                            <option value="BTC">BTC</option>
+                                                            <option value="ETH">ETH</option>
+                                                            <option value="BCH">BCH</option>
+                                                            <option value="LTC">LTC</option>
+                                                            <option value="ZEC">ZEC</option>
+                                                            <option value="MRK">MRK</option>
+                                                            <option value="BAT">BAT</option>
+                                                            <option value="CRO">CRO</option>
+
+                                                            <option value="TUSD">TUSD</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Quantity</label>
+                                                        <input type="text" placeholder="" id="qty" class="form-control">
+                                                    </div>
+                                                </div>  
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Client</label>
+                                                        <input type="text" placeholder="" id="client" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>&nbsp;</label>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group">
+                                                                    <button class="btn btn-primary btn-block" type="submit" onclick="return clickLocate();"
+                                                                            >Locate</button>
+                                                                </div> 
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group">
+                                                                    <button class="btn btn-primary btn-block clearLocate">Clear</button>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+
+                                        <div class="short-sale-form"  id="locateExecute" style="display:none">
+                                            <div class="form-title clearfix">
+                                                <h2>Locate & Execute Short Sale</h2>
+                                                <div class="form-steps clearfix">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="box">
+                                                                <div class="number">1</div>
+                                                                <h4>Locate</h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="active">
+                                                            <div class="box">
+                                                                <div class="number">2</div>
+                                                                <h4>Execute</h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Symbol</label>
+                                                        <select class="form-control" id="locateExecuteSymbol">
+                                                            <option value="BTC">BTC</option>
+                                                            <option value="ETH">ETH</option>
+                                                            <option value="BCH">BCH</option>
+                                                            <option value="LTC">LTC</option>
+                                                            <option value="ZEC">ZEC</option>
+                                                            <option value="MRK">MRK</option>
+                                                            <option value="BAT">BAT</option>
+                                                            <option value="CRO">CRO</option>
+
+                                                            <option value="TUSD">TUSD</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Rate</label>
+                                                        <input type="text" placeholder="" id="locateExecuteRate" class="form-control">
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Quantity</label>
+                                                        <input type="text" placeholder="" id="locateExecuteQty" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Client</label>
+                                                        <input type="text" placeholder="" id="locateExecuteClient" class="form-control">
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Order Type</label>
+                                                        <div class="clearfix">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="orderType" id="OrderType1" value="Market"> Market
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="orderType" id="OrderType2" value="Limit"> 
+                                                                Limit
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Order Strategy</label>
+                                                        <select class="form-control" id="orderStrategy">
+                                                            <option>DMA</option>
+                                                            <option>PVOL</option>
+                                                            <option>VWAP</option>
+                                                            <option>TWAP</option>
+                                                            <option>OTC</option>
+                                                        </select>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Limit Price</label>
+                                                        <input type="text" placeholder="" id="locateExecutePrice" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+
+                                                        <label>&nbsp;</label>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group">
+                                                                    <button class="btn btn-primary btn-block" id="btnExecute">Execute</button>
+                                                                </div> 
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group">
+                                                                    <button class="btn btn-primary btn-block clearExecute">Clear</button>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                       
+                                       
+
+                                        <div class="table-part" id="order-table">
+                                            <div class="table-heading clearfix">
+                                                <h2>Open Orders</h2>
+                                                <div class="sort-box">
+                                                    <h3>Sort By</h3>
+                                                    <select class="form-control">
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="coman-table table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Symbol</th>
+                                                            <th>Client</th>
+                                                            <th>QTY</th>
+                                                            <th>Rate</th>
+                                                            <th>Limit</th>
+                                                            <th class="last-th">Actions</th>
+                                                        </tr>
+
+                                                    </thead>
+                                                    <tbody class="openOrderTable">
+                                                        <tr class="btcCancelRaw btc-open-order">
+                                                            <td>BTC</td>
+                                                            <td>XYZ</td>
+                                                            <td>-12000</td>
+                                                            <td>8</td>
+                                                            <td>10830.20</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="btcCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                        <tr class="ethCancelRaw eth-open-order">
+                                                            <td>ETH</td>
+                                                            <td>ABC</td>
+                                                            <td>-20000</td>
+                                                            <td>5.6</td>
+                                                            <td>292.25</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="ethCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                       
+                                                        
+                                                        
+                                                        <tr class="bchCancelRaw bch-open-order">
+                                                            <td>BCH</td>
+                                                            <td>XYZ</td>
+                                                            <td>-22000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="bchCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="ltcCancelRaw ltc-open-order">
+                                                            <td>LTC</td>
+                                                            <td>ABC</td>
+                                                            <td>-35000</td>
+                                                            <td>7.8</td>
+                                                            <td>123.19</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="ltcCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="zecCancelRaw zec-open-order">
+                                                            <td>ZEC</td>
+                                                            <td>XYZ</td>
+                                                            <td>-40000</td>
+                                                            <td>8.9</td>
+                                                            <td>103.55</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="zecCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="mrkCancelRaw mrk-open-order">
+                                                            <td>MRK</td>
+                                                            <td>ABC</td>
+                                                            <td>-40000</td>
+                                                            <td>5.5</td>
+                                                            <td>595</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="mrkCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                       
+                                                        <tr class="batCancelRaw bat-open-order">
+                                                            <td>BAT</td>
+                                                            <td>XYZ</td>
+                                                            <td>-42000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="batCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="croCancelRaw cro-open-order">
+                                                            <td>CRO</td>
+                                                            <td>XYZ</td>
+                                                            <td>-33000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="croCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                         <tr class="bchCancelRaw bch-open-order">
+                                                            <td>BCH</td>
+                                                            <td>XYZ</td>
+                                                            <td>-22000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="bchCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="ltcCancelRaw ltc-open-order">
+                                                            <td>LTC</td>
+                                                            <td>ABC</td>
+                                                            <td>-35000</td>
+                                                            <td>7.8</td>
+                                                            <td>123.19</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="ltcCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="zecCancelRaw zec-open-order">
+                                                            <td>ZEC</td>
+                                                            <td>XYZ</td>
+                                                            <td>-40000</td>
+                                                            <td>8.9</td>
+                                                            <td>103.55</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="zecCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="mrkCancelRaw mrk-open-order">
+                                                            <td>MRK</td>
+                                                            <td>ABC</td>
+                                                            <td>-40000</td>
+                                                            <td>5.5</td>
+                                                            <td>595</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="mrkCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                       
+                                                        <tr class="batCancelRaw bat-open-order">
+                                                            <td>BAT</td>
+                                                            <td>XYZ</td>
+                                                            <td>-42000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="batCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="croCancelRaw cro-open-order">
+                                                            <td>CRO</td>
+                                                            <td>XYZ</td>
+                                                            <td>-33000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary editOpenPosition">Edit</a>
+                                                                    <a class="btn btn-primary btn-danger openPositionCancel" id="croCancel">Cancel</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>    	
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"  >
+                                       <div class="table-part" id="Inventorya">
+                                            <div class="table-heading clearfix">
+                                                <h2>Inventory</h2>
+                                                <div class="sort-box">
+                                                    <h3>Sort By</h3>
+                                                    <select class="form-control">
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="coman-table table-responsive inventory-table">
+                                                <!--<table class="table table-striped inventory-table-datatable">-->
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Symbol</th> 
+                                                            <th>Lender</th>
+                                                            <th>Quantity</th>
+                                                            <th>Rate</th> 
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>  
+                                                        <tr data-toggle="collapse" class="collapsed changeimg inv-parent-btc inv-btc" data-target=".accordion1">
+                                                            <td> <div class="arrow-box show-arrow"> </div>BTC</td>
+                                                            <td>Multiple</td> 
+                                                            <td id="btcTotal">50000</td> 
+                                                            <td>8.00</td>
+                                                        </tr>
+
+                                                        <tr class="accordion1 collapse inv-child-btc inv-btc inv-child-xyz">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>XYZ</td>
+                                                            <td id="btcQty">10000</td>
+                                                            <td>8.00</td>
+                                                        </tr>
+                                                        <tr class="accordion1 collapse inv-child-btc inv-btc inv-child-def">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>DEF</td>
+                                                            <td>30000</td>
+                                                            <td>8.00</td>
+                                                        </tr>
+                                                        <tr class="accordion1 collapse inv-child-btc inv-btc inv-child-ghi">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>GHI</td>
+                                                            <td>5000</td>
+                                                            <td>8.00</td>
+                                                        </tr>
+                                                        <tr class="accordion1 collapse inv-child-btc inv-btc inv-child-jkl">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>JKL</td>
+                                                            <td>5000</td>
+                                                            <td>8.00</td>
+                                                        </tr>
+                                                        <tr class="inv-eth">
+                                                            <td>ETH</td> 
+                                                            <td>XYZ</td> 
+                                                            <td>10000</td> 
+                                                            <td>5.6</td> 
+                                                        </tr>
+                                                        <tr class="inv-bch">
+                                                            <td>BCH</td> 
+                                                            <td>ABC</td> 
+                                                            <td>20000</td> 
+                                                            <td>6</td> 
+                                                        </tr>
+                                                        <tr class="inv-ltc">
+                                                            <td>LTC</td> 
+                                                            <td>XYZ</td> 
+                                                            <td>25000</td> 
+                                                            <td>7.8</td> 
+                                                        </tr>
+                                                        <tr class="inv-zec">
+                                                            <td>ZEC</td>
+                                                            <td>ABC</td>
+                                                            <td>13000</td>
+                                                            <td>8.9</td>
+                                                        </tr>
+                                                        <tr class="inv-mrk">
+                                                            <td>MRK</td>
+                                                            <td>XYZ</td>
+                                                            <td>30000</td>
+                                                            <td>5.5</td>
+                                                        </tr>
+                                                        <tr class="inv-bat">
+                                                            <td>BAT</td>
+                                                            <td>ABC</td>
+                                                            <td>22000</td>
+                                                            <td>4.4</td>
+                                                        </tr>
+                                                        <tr class="inv-cro">
+                                                            <td>CRO</td>
+                                                            <td>XYZ</td>
+                                                            <td>23000</td>
+                                                            <td>9</td>
+                                                        </tr>
+                                                        <tr class="inv-tusd">
+                                                            <td>TUSD</td>
+                                                            <td>XYZ</td>
+                                                            <td>23000</td>
+                                                            <td>9</td>
+                                                        </tr>
+                                                         <tr class="inv-tusd">
+                                                            <td>XMR</td>
+                                                            <td>XYZ</td>
+                                                            <td>23000</td>
+                                                            <td>9</td>
+                                                        </tr>
+                                                         <tr class="inv-tusd">
+                                                            <td>PAX</td>
+                                                            <td>XYZ</td>
+                                                            <td>23000</td>
+                                                            <td>9</td>
+                                                        </tr>
+                                                    </tbody> 
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <div class="table-part" id="open-table">
+                                            <div class="table-heading clearfix">
+                                                <h2>Open Positions</h2>
+                                                <div class="sort-box">
+                                                    <h3>Sort By</h3>
+                                                    <select class="form-control">
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="coman-table table-responsive table-btn-big  open-order-table">
+                                                <table class="table table-striped">
+                                                    <thead>																		 
+                                                        <tr>
+                                                            <th>Symbol</th>
+                                                            <th>Client</th>
+                                                            <th>Quantity</th>
+                                                            <th>Avg Rate</th>
+                                                            <th>Avg Price</th>
+                                                            <th class="last-th">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="openPositionTable">
+                                                        <tr data-toggle="collapse" class="btcRaw btc-parent collapsed changeimg" data-target=".accordion2" >
+                                                            <td>
+                                                                <div class="arrow-box show-arrow"> </div>BTC
+                                                            </td>
+                                                            <td>XYZ</td>
+                                                            <td>-20000</td>
+                                                            <td>8.00</td>
+                                                            <td>10830.20</td>
+                                                            <td>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="accordion2 collapse btc1Raw btc-child">
+                                                            <td><span class="hide">BTC1</span></td>
+                                                            <td>XYZ</td>
+                                                            <td>-10000</td>
+                                                            <td>8.00</td>
+                                                            <td>10830.20</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a class="btn btn-primary viewposition" id="btc1" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close </a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="accordion2 collapse btc2Raw btc-child">
+                                                            <td><span class="hide">BTC2</span></td>
+                                                            <td>XYZ</td>
+                                                            <td>-2000</td>
+                                                            <td>8.00</td>
+                                                            <td>10830.20</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a class="btn btn-primary viewposition" id="btc2" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close </a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="accordion2 collapse btc3Raw btc-child">
+                                                            <td><span class="hide">BTC3</span></td>
+                                                            <td>XYZ</td>
+                                                            <td>-1000</td>
+                                                            <td>8.00</td>
+                                                            <td>10830.20</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a class="btn btn-primary viewposition" id="btc3" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close </a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="accordion2 collapse btc4Raw btc-child">
+                                                            <td><span class="hide">BTC4</span></td>
+                                                            <td>XYZ</td>
+                                                            <td>-7000</td>
+                                                            <td>8.00</td>
+                                                            <td>10830.20</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a class="btn btn-primary viewposition" id="btc4" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close </a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="ethRaw">
+                                                            <td>ETH</td>
+                                                            <td>ABC</td>
+                                                            <td>-40000</td>
+                                                            <td>5.6</td>
+                                                            <td>292.25</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="eth" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="bchRaw">
+                                                            <td>BCH</td>
+                                                            <td>XYZ</td>
+                                                            <td>-12000</td>
+                                                            <td>6</td>
+                                                            <td>310</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="bch" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="ltcRaw">
+                                                            <td>LTC</td>
+                                                            <td>ABC</td>
+                                                            <td>-16000</td>
+                                                            <td>7.8</td>
+                                                            <td>370</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="ltc" aria-controls="profile" role="tab" data-toggle="tab">View </a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="zecRaw">
+                                                            <td>ZEC</td>
+                                                            <td>XYZ</td>
+                                                            <td>-18000</td>
+                                                            <td>8.9</td>
+                                                            <td>230</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="zec" aria-controls="profile" role="tab" data-toggle="tab">View</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="batRaw">
+                                                            <td>BAT</td>
+                                                            <td>ABC</td>
+                                                            <td>-20000</td>
+                                                            <td>5.5</td>
+                                                            <td>787</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="bat" aria-controls="profile" role="tab" data-toggle="tab">View</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="mrkRaw">
+                                                            <td>MRK</td>
+                                                            <td>XYZ</td>
+                                                            <td>-18000</td>
+                                                            <td>8.9</td>
+                                                            <td>450</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="mrk" aria-controls="profile" role="tab" data-toggle="tab">View</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="croRaw">
+                                                            <td>CRO</td>
+                                                            <td>ABC</td>
+                                                            <td>-17000</td>
+                                                            <td>5.5</td>
+                                                            <td>410</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a  class="btn btn-primary viewposition" id="cro" aria-controls="profile" role="tab" data-toggle="tab">View</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger close-position">Close</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <div class="table-part" id="Inventory-table">
+                                            <div class="table-heading clearfix">
+                                                <h2>Inventory Management</h2>
+                                                <div class="sort-box">
+                                                    <h3>Sort By</h3>
+                                                    <select class="form-control">
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="coman-table table-responsive inventory-table">
+                                                <table class="table table-striped">
+                                                    <thead><tr>
+                                                            <th>Symbol</th>
+                                                            <th>Lender</th>
+                                                            <th>Quantity</th>
+                                                            <th>Rate</th>
+                                                            <th class="last-th">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr data-toggle="collapse" class="collapsed changeimg parent-btc btc-inventory" data-target=".accordion" >
+                                                            <td>
+                                                                <div class="arrow-box show-arrow"> </div>BTC
+                                                            </td>
+                                                            <td>Multiple</td>
+                                                            <td>50000</td>
+                                                            <td>8.00</td>
+                                                            <td>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="accordion collapse child-btc btc-inventory child-xyz">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>XYZ</td>
+                                                            <td>10000</td>
+                                                            <td>8.00</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="accordion collapse child-btc btc-inventory child-def">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>DEF</td>
+                                                            <td>30000</td>
+                                                            <td>8.00</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="accordion collapse child-btc btc-inventory child-ghi">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>GHI</td>
+                                                            <td>5000</td>
+                                                            <td>8.00</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div></td>
+                                                        </tr>
+                                                        <tr class="accordion collapse child-btc btc-inventory child-jkl">
+                                                            <td><span class="hide">BTC</span></td>
+                                                            <td>JKL</td>
+                                                            <td>5000</td>
+                                                            <td>8.00</td>
+                                                            <td> <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div></td>
+                                                        </tr>
+
+                                                        <tr class="eth-inventory">
+                                                            <td>ETH</td>
+                                                            <td>XYZ</td>
+                                                            <td>10000</td>
+                                                            <td>5.6</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="bch-inventory">
+                                                            <td>BCH</td>
+                                                            <td>ABC</td>
+                                                            <td>20000</td>
+                                                            <td>6</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="ltc-inventory">
+                                                            <td>LTC</td>
+                                                            <td>XYZ</td>
+                                                            <td>25000</td>
+                                                            <td>7.8</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="zec-inventory">
+                                                            <td>ZEC</td>
+                                                            <td>ABC</td>
+                                                            <td>13000</td>
+                                                            <td>8.9</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="mrk-inventory">
+                                                            <td>MRK</td>
+                                                            <td>XYZ</td>
+                                                            <td>30000</td>
+                                                            <td>5.5</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="bat-inventory">
+                                                            <td>BAT</div>  
+                                                            </td>
+                                                            <td>ABC</td>
+                                                            <td>22000</td>
+                                                            <td>4.4</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cro-inventory">
+                                                            <td>CRO</td>
+                                                            <td>XYZ</td>
+                                                            <td>23000</td>
+                                                            <td>9</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="tusd-inventory">
+                                                            <td>TUSD</td>
+                                                            <td>XYZ</td>
+                                                            <td>23000</td>
+                                                            <td>9.00</td>
+                                                            <td>
+                                                                <div class="table-btn">
+                                                                    <a href="#" class="btn btn-primary edit-inventory-mgmt">Edit</a>
+                                                                    <a href="#" class="btn btn-primary btn-danger recall-inventory">Recall</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="main-tab2">
+                               <!--  <div class="risk-top-list">
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="box">
+                                                <p>Net Mkt Value </p>
+                                                <h3>6000</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="box">
+                                                <p>Longs </p>
+                                                <h3>4000</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="box">
+                                                <p>Shorts </p>
+                                                <h3>4000</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="box">
+                                                <p>Cash Balance </p>
+                                                <h3>3000</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="box">
+                                                <p>Margin Value </p>
+                                                <h3>5000</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="box">
+                                                <p>Margin Requirment (%)</p>
+                                                <h3>50</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                                <div class="table-part">
+                                    <div class="table-heading clearfix" id="Client-Accounts">
+                                        <h2>Client Accounts</h2>
+                                    </div>
+                                    <div class="coman-table table-responsive cl-ac-table inventory-table">
+                                        <table class="table table-striped"  id="Client-Accounts-a">
+                                            <thead>
+                                                <tr>
+                                                    <th>Client Name</th>
+                                                    <th>Net Mkt Value </th>
+                                                    <th>LMV </th>
+                                                    <th>SMV </th>
+                                                    <th>Cash  </th>
+                                                    <th class="br-word">Total Margin<br> Requirement</th>
+                                                   
+                                                    
+                                                    <th class="br-word">Margin Excess (cash available)</th>
+                                                    <th class="br-word">Buying Power</th>
+                                                     <th class="br-word">Margin Timer Clock</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr data-toggle="collapse" class="collapsed changeimg" data-target=".accordion1">
+                                                    <td>
+                                                        <div class="arrow-box show-arrow"> </div> ABC
+                                                    </td>
+                                                    <td>15000</td>
+                                                    <td>5000</td>
+                                                    <td>2000</td>
+                                                    <td>6000</td>.
+                                                        <td>50</td>
+                                                    <td>5000</td>
+                                                
+                                                  <td>$1000000</td>
+                                                 <td>5</td>
+                                                </tr>
+
+                                                <tr class="accordion1 collapse collapsed changeimg"  data-toggle="collapse" data-target=".accordion2">
+                                                    <td>
+                                                        <div class="arrow-box show-arrow"> </div>Account 1
+                                                    </td>
+                                                    <td>10000</td>
+                                                    <td>2500</td>
+                                                    <td>1000</td>
+                                                    <td>3000</td>
+                                                     <td>50</td>
+                                                    <td>2500</td>
+                                                   
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+                                                <tr class="accordion2 collapse">
+                                                    <td>
+                                                        Wallet 1
+                                                    </td>
+                                                    <td>5000</td>
+                                                    <td>1000</td>
+                                                    <td>500</td>
+                                                    <td>1500</td>
+                                                    <td>50</td>
+                                                    <td>1500</td>
+                                                    
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+                                                <tr class="accordion2 collapse">
+                                                    <td>
+                                                        Wallet 2
+                                                    </td>
+                                                    <td>5000</td>
+                                                    <td>1500</td>
+                                                    <td>500</td>
+                                                    <td>1500</td>
+                                                     <td>50</td>
+                                                    <td>1000</td>
+                                                   
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+
+
+                                                <tr class="accordion1 collapse collapsed changeimg"  data-toggle="collapse" data-target=".accordion3">
+                                                    <td>
+                                                        <div class="arrow-box show-arrow"></div>Account 2
+                                                    </td>
+                                                    <td>5000</td>
+                                                    <td>2500</td>
+                                                    <td>1000</td>
+                                                    <td>3000</td>
+                                                      <td>50</td>
+                                                    <td>2500</td>
+                                                  
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+                                                <tr class="accordion3 collapse">
+                                                    <td>
+                                                        Wallet 1
+                                                    </td>
+                                                    <td>3000</td>
+                                                    <td>2000</td>
+                                                    <td>700</td>
+                                                    <td>2000</td>
+                                                     <td>50</td>
+                                                    <td>1500</td>
+                                                   
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+                                                <tr class="accordion3 collapse">
+                                                    <td>
+                                                        Wallet 2
+                                                    </td>
+                                                    <td>2000</td>
+                                                    <td>500</td>
+                                                    <td>300</td>
+                                                    <td>1000</td>
+                                                    <td>1000</td>
+                                                    <td>50</td>
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>
+                                                        <div class="">
+                                                            DEF
+                                                        </div>
+                                                    </td>
+                                                    <td>16000</td>
+                                                    <td>3000</td>
+                                                    <td>5000</td>
+                                                    <td>7000</td>
+                                                      <td>30</td>
+                                                    <td>10000</td>
+                                                  
+                                                  <td>$1 000000</td>
+                                                 <td>5</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="table-part" id="Positions">
+                                    <div class="table-heading clearfix">
+                                        <h2>Positions</h2>
+                                    </div>
+                                    <div class="coman-table table-responsive position-table">
+                                       <table class="table table-striped"  id="Positionsa">
+                                            <thead>
+                                                <tr>
+                                                    <th>Symbol</th>
+                                                    <th class="br-word">  Security description</th>
+
+                                                    <th>Quantity 
+</th>
+                                                    <th>Price</th>
+                                                    <th>Rate</th>
+                                                    <th>Market value
+</th>
+<th class="br-word"> % Margin Requirement</th>
+ <th class="br-word">Margin Requirement</th>
+                                                    <th class="br-word">Liquidate for Margin Call
+</th>
+                                                   
+                                                    <!-- <th>Cash Available</th>
+                                                    <th>Buying Power</th> -->
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="btcRowPosition">
+                                                    <td>BTC</td>
+                                                       <td>ABC</td>
+                                                    <td>1000</td>
+                                                    <td>11705.57</td>
+                                                    <td>4.5</td>
+                                                    <td>5000</td>
+                                                    <td>50</td>
+                                                    <td>50</td>
+                                                     <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="ethRowPosition">
+                                                    <td>ETH</td><td>ABC</td>
+                                                    <td>1100</td>
+                                                    <td>199.99</td>
+                                                    <td>5.5</td>
+                                                    <td>10000</td>
+                                                    <td>30</td>
+                                                    <td>50</td>
+                                                     <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="bchRowPosition">
+                                                    <td>BCH</td><td>ABC</td>
+                                                    <td>1200</td>
+                                                    <td>2500.20</td>
+                                                    <td>4.8</td>
+                                                    <td>8000</td>
+                                                    <td>60</td>
+                                                    <td>50</td>
+                                                     <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="ltcRowPosition">
+                                                    <td>LTC</td><td>ABC</td>
+                                                    <td>1300</td>
+                                                    <td>177.89</td>
+                                                    <td>4.9</td>
+                                                    <td>6000</td>
+                                                    <td>20</td>
+                                                    <td>50</td>
+                                                     <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="zecRowPosition">
+                                                    <td>ZEC</td><td>ABC</td>
+                                                    <td>1400</td>
+                                                    <td>245.45</td>
+                                                    <td>6.3</td>
+                                                    <td>7000</td>
+                                                    <td>30</td>
+                                                     <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="mrkRowPosition">
+                                                    <td>MRK</td><td>ABC</td>
+                                                    <td>1500</td>
+                                                    <td>220.20</td>
+                                                    <td>6.9</td>
+                                                    <td>9000</td>
+                                                    <td>35</td>
+                                                     <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="batRowPosition">
+                                                    <td>BAT</td><td>ABC</td>
+                                                    <td>1600</td>
+                                                    <td>5050.89</td>
+                                                    <td>6.5</td>
+                                                    <td>8000</td>
+                                                    <td>45</td>
+                                                     <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="croRowPosition">
+                                                    <td>CRO</td><td>ABC</td>
+                                                    <td>1700</td>
+                                                    <td>110.25</td>
+                                                    <td>7.5</td>
+                                                    <td>7000</td>
+                                                    <td>25</td>
+                                                     <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="usdcRowPosition">
+                                                    <td>USDC</td><td>ABC</td>
+                                                    <td>1800</td>
+                                                    <td>220.20</td>
+                                                    <td>8.5</td>
+                                                    <td>10000</td>
+                                                    <td>60</td> <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="tusdRowPosition">
+                                                    <td>TUSD</td><td>ABC</td>
+                                                    <td>1900</td>
+                                                    <td>280.99</td>
+                                                    <td>8.3</td>
+                                                    <td>9000</td>
+                                                    <td>40</td> <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="repRowPosition">
+                                                    <td>REP</td><td>ABC</td>
+                                                    <td>2000</td>
+                                                    <td>152.89</td>
+                                                    <td>6.8</td>
+                                                    <td>8000</td>
+                                                    <td>50</td> <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="omgRowPosition">
+                                                    <td>OMG</td><td>ABC</td>
+                                                    <td>1000</td>
+                                                    <td>8.20</td>
+                                                    <td>7.3</td>
+                                                    <td>7000</td>
+                                                    <td>35</td> <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="linkRowPosition">
+                                                    <td>LINK</td><td>ABC</td>
+                                                    <td>1100</td>
+                                                    <td>600.52</td>
+                                                    <td>8.1</td>
+                                                    <td>7000</td>
+                                                    <td>40</td> <td>50</td>
+                                                    <td>50</td>
+                                                 
+                                                </tr>
+                                                <tr class="paxRowPosition">
+                                                    <td>PAX</td><td>ABC</td>
+                                                    <td>1200</td>
+                                                    <td>220.20</td>
+                                                    <td>4.6</td>
+                                                    <td>8000</td>
+                                                    <td>25</td> <td>50</td>
+                                                    <td>150</td>
+                                                 
+                                                </tr>
+                                                <tr class="hotRowPosition">
+                                                    <td>HOT</td><td>ABC</td>
+                                                    <td>1300</td>
+                                                    <td>10758.20</td>
+                                                    <td>5.5</td>
+                                                    <td>8500</td>
+                                                    <td>45</td> <td>50</td>
+                                                    <td>55</td>
+                                                 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="main-tab3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="table-part" id="History">
+                                            <div class="table-heading clearfix">
+                                                <h2>Borrow History</h2>
+                                                <div class="sort-box">
+                                                    <h3>Sort By</h3>
+                                                    <select class="form-control">
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="coman-table table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Symbol</th>
+                                                            <th>Client</th>
+                                                            <th>Lender</th>
+                                                            <th>Size</th>
+                                                            <th>Rate</th>
+                                                            <th>Execution Price</th>
+                                                            <th>Date & Time</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>BTC</td>
+                                                            <td>XYZ</td>
+                                                            <td>ABC</td>
+                                                            <td>1200</td>
+                                                            <td>8</td>
+                                                            <td>10830.20</td>
+                                                            <td>02/07/2019  12:11</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ETH</td>
+                                                            <td>ABC</td>
+                                                            <td>XYZ</td>
+                                                            <td>1000</td>
+                                                            <td>5.6</td>
+                                                            <td>292.25</td>
+                                                            <td>02/07/2019  12:12</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>BCH</td>
+                                                            <td>XYZ</td>
+                                                            <td>ABC</td>
+                                                            <td>2000</td>
+                                                            <td>6</td>
+                                                            <td>404.85</td>
+                                                            <td>02/07/2019  12:13</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>LTC</td>
+                                                            <td>ABC</td>
+                                                            <td>XYZ</td>
+                                                            <td>2500</td>
+                                                            <td>7.8</td>
+                                                            <td>123.19</td>
+                                                            <td>02/07/2019  12:14</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ZEC</td>
+                                                            <td>XYZ</td>
+                                                            <td>ABC</td>
+                                                            <td>1300</td>
+                                                            <td>8.9</td>
+                                                            <td>103.55</td>
+                                                            <td>02/07/2019  12:15</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>MRK</td>
+                                                            <td>ABC</td>
+                                                            <td>XYZ</td>
+                                                            <td>900</td>
+                                                            <td>5.5</td>
+                                                            <td>595</td>
+                                                            <td>02/07/2019  12:16</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>BAT</td>
+                                                            <td>XYZ</td>
+                                                            <td>ABC</td>
+                                                            <td>2200</td>
+                                                            <td>4.4</td>
+                                                            <td>232</td>
+                                                            <td>02/07/2019  12:17</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>CRO</td>
+                                                            <td>ABC</td>
+                                                            <td>XYZ</td>
+                                                            <td>2300</td>
+                                                            <td>9</td>
+                                                            <td>249</td>
+                                                            <td>02/07/2019  12:18</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="modal coman-modal fade" id="modal-edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Order Details</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Symbol</label>
+                            <input type="text" placeholder="" class="form-control order-symbol" readonly value="">
+                        </div>
+                        <div class="form-group">
+                            <label>Quantity Remaining</label>
+                            <input type="text" placeholder="" class="form-control order-qty" value="2000">
+                        </div>
+                        <div class="form-group">
+                            <label>Client</label>
+                            <input type="text" placeholder="" class="form-control order-client">
+                        </div>
+                        <div class="form-group ord-fr">
+                            <label>Order Type</label>
+                            <div class="clearfix">
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="mkt"> Market
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="limit" checked> Limit
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Limit Price</label>
+                            <input type="text" placeholder="" class="form-control order-limit" value="">
+                        </div>
+
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block confirm-order-update">Confirm</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal coman-modal fade" id="modal-cancel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Cancel Order</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <p>Are you sure you want to cancel your order?</p>
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal coman-modal fade" id="modal-recall" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Recall</h4>
+                    </div>
+                    <input type="hidden" class="inv-recall-id">
+                    <input type="hidden" class="inv-recall-qty">
+                    <input type="hidden" class="inv-recall-rate">
+                    <input type="hidden" class="inv-recall-client">
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <p>Are you sure you want to recall?</p>
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block recall-confirm">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal coman-modal fade" id="modal-close-position" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <input type="hidden" class="position_name">
+                <input type="hidden" class="position_rate">
+                <input type="hidden" class="position_qty">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Close Position</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <p>Are you sure you want to close this position?</p>
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block confirm-close-position">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal coman-modal fade" id="modal-cancel-position" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <input type="hidden" class="position_cancel_name">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Cancel Position</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <p>Are you sure you want to cancel position?</p>
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block confirm-open-position-cancel">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal coman-modal fade" id="modal-edit-inventory-manage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Edit Details</h4>
+                    </div>
+                    <input type="hidden" class="inventory-id">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Client</label>
+                            <input type="text" placeholder="" class="form-control inventory-client" value="" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label>Quantity</label>
+                            <input type="text" placeholder="" class="form-control inventory-qty" value="">
+                        </div>
+                        <div class="form-group">
+                            <label>Rate</label>
+                            <input type="text" placeholder="" class="form-control inventory-rate">
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block update-inventory">Confirm</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal coman-modal fade" id="modal-Locate-alert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Locate Details</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="execute-list">
+                            <ul>
+                                <li align="center">
+                                    <p>
+                                        <strong>CLIENT <span id="modalClient"></span> LOCATE <span id="modalQuantity"></span> <span id="modalSymbol"></span> <span id="modalTimeStamp"></span></strong> <label id="modalSymbol"></label>
+                                    </p>
+                                </li>
+                                <!-- <li>
+                                        <p>
+                                                <strong>Quantity</strong> <label id="modalQuantity"></label>
+                                        </p>
+                                </li>
+                                <li>
+                                        <p>
+                                                <strong>Client</strong> <label id="modalClient"></label>
+                                        </p>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block" id="locateOkBtn">
+                                Ok
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal coman-modal fade" id="modal-Locate-execute" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Success</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <img src="img/success-icon.png" alt="" />
+                            <h3>Execute Successful</h3>
+                        </div>
+                        <div class="execute-list">
+                            <ul>
+                                <li>
+                                    <p>
+                                        <strong>Symbol</strong> <label id="modalExecuteSymbol"></label>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Quantity</strong> <label id="modalExecuteQuantity"></label>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Client</strong> <label id="modalExecuteclient"></label>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Order Type</strong> <label id="modalExecuteOrder"></label>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Order Strategy</strong> <label id="modalExecuteOrderStrategy"></label>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>Price</strong> <label id="modalExecutePrice"></label></p>
+                                </li>
+                                <li>
+                                    <p><strong>Rate</strong> <label id="modalExecuteRate"></label></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix">
+                            <button type="button" class="btn btn-primary btn-block" data-dismiss="modal" id="executeOkBtn">
+                                Ok
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Mainly scripts -->
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+        <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+        <!-- Custom and plugin javascript -->
+        <script src="js/inspinia.js"></script>
+        <script src="js/plugins/pace/pace.min.js"></script>
+
+        <!-- jQuery UI -->
+        <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!--        <script src="js/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="js/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+        <script src="js/plugins/datatables/dataTables.responsive.min.js"></script>-->
+        <script src="js/common_dashboard.js"></script>
+
+
+    </body>
+</html>

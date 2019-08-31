@@ -1,0 +1,36 @@
+.open-order-table .arrow-box.show-arrow,.inventory-table .arrow-box.show-arrow, .cl-ac-table .arrow-box.show-arrow {
+    background-image: url(../img/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 12px;
+    width: 7px;
+    position: absolute;
+      top: 52% !important;
+    transform: translateY(-6px);
+    white-space: nowrap;
+}
+
+.open-order-table .collapsed .arrow-box.show-arrow,.inventory-table .collapsed .arrow-box.show-arrow, .cl-ac-table .collapsed .arrow-box.show-arrow {
+    background-image: url(../img/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 12px;
+    width: 7px;
+    position: absolute;
+      top: 1px !important;
+    white-space: nowrap;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.accordion,.accordion1,.accordion2 {
+    background-color: #232a3c !important;
+}
+
+.accordion-risk, .accordion-risk-subitem1, .accordion-risk-subitem2 {
+    background-color: #12111f !important;
+}
+
+.accordion-risk td:first, .accordion-risk-subitem1 td:first, .accordion-risk-subitem2 td:first {
+    padding-left: 30px;
+}
